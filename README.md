@@ -77,7 +77,7 @@ Persistent volume sizes for the ANOW agent.
 
 ## Install
 ```sh
-helm install anow-agent https://gitlab.com/vasyl.pashko/anow-agent-helm-chart/-/raw/main/anow-agent-0.1.0.tgz \
+helm install anow-agent https://anowautomate.github.io/agent-helm-chart/anow-agent-0.1.0.tgz \
   --set customName="my-anow-agent" \
   --set image.repository="agent" \
   --set image.tag="java17" \
