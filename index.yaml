@@ -1,0 +1,13 @@
+apiVersion: v1
+entries:
+  anow-agent:
+  - apiVersion: v2
+    created: "2025-08-11T15:53:34.535249+02:00"
+    description: A Helm chart for deploying agent to Kubernetes
+    digest: 006515a362b84aac8594a5d30a0f71b6bad6d19182e38b513200f0e41afa6073
+    name: anow-agent
+    type: application
+    urls:
+    - anow-agent-0.1.0.tgz
+    version: 0.1.0
+generated: "2025-08-11T15:53:34.5306019+02:00"
