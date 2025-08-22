@@ -46,7 +46,7 @@ Configuration parameters for the ANOW agent.
 | `BROKER_HOST`                  | Hostname and port of the message broker (e.g., RabbitMQ).                                                                                                  | string | `""` (empty string) |
 | `BROKER_USER`                  | (Optional) Username for authenticating with the message broker.                                                                                            | string | `""` (empty string) |
 | `BROKER_PASSWORD`              | (Optional) Broker password in plain text. Used only if `BROKER_PASSWORD_SECRET_NAME` is unset.                                                             | string | `""` (empty string) |
-| `BROKER_PASSWORD_SECRET_NAME`  | (Optional) Name of a Kubernetes Secret containing the broker password. Overrides `BROKER_PASSWORD`. The Secret must include a key named `BROKER_PASSWORD`. | string | `""` (emptystring)  |
+| `BROKER_PASSWORD_SECRET_NAME`  | (Optional) Name of a Kubernetes Secret containing the broker password. Overrides `BROKER_PASSWORD`. The Secret must include a key named `BROKER_PASSWORD`. | string | `""` (empty string) |
 | `JAVA_JOPTS`                   | (Optional) JVM parameters/options passed to the Java Virtual Machine.                                                                                      | string | `"-Xms128m -Xmx256m -DRWD=true -Djna.tmpdir=/anow/agent/tmp"` |
 
 ---
